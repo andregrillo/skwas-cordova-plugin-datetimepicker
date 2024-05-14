@@ -103,7 +103,7 @@ static const float kDatePickerHeight = 200;
 }
 
 - (UIInterfaceOrientationMask)supportedInterfaceOrientations {
-    return UIInterfaceOrientationMaskAll;
+    return UIDevice.currentDevice.orientation;
 }
 
 - (void)viewWillLayoutSubviews {
