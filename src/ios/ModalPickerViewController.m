@@ -99,7 +99,7 @@ static const float kDatePickerHeight = 200;
 }
 
 - (BOOL)shouldAutorotate {
-    return YES;
+    return NO;
 }
 
 - (UIInterfaceOrientationMask)supportedInterfaceOrientations {
